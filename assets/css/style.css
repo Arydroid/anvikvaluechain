@@ -73,7 +73,6 @@ h6 {
   background: white;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
 }
 
 #header.header-scrolled {
@@ -98,8 +97,11 @@ h6 {
   color: #556270;
 }
 
-#header .logo img {
+/* #header .logo img {
   max-height: 40px;
+} */
+.hola{
+  max-width: 16rem;
 }
 
 /*--------------------------------------------------------------
@@ -702,7 +704,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #d9232d;
+  color: rgb(2, 147, 250);
   font-size: 40px;
 }
 
@@ -725,7 +727,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #d9232d;
+  color: rgb(2, 147, 250);
 }
 
 /*--------------------------------------------------------------
@@ -759,7 +761,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #d9232d;
+  background: rgb(2, 147, 250);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1067,12 +1069,12 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #d9232d;
+  color: rgb(2, 147, 250);
 }
 
 .features .nav-link.active {
-  color: #d9232d;
-  border-color: #d9232d;
+  color: rgb(2, 147, 250);
+  border-color: rgb(2, 147, 250);
 }
 
 .features .tab-pane.active {
@@ -1102,7 +1104,7 @@ section {
 
   .features .nav-link.active {
     color: #fff;
-    background: #d9232d;
+    background: rgb(2, 147, 250);
   }
 }
 
