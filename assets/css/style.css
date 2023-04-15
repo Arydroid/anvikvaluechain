@@ -1109,6 +1109,93 @@ section {
     background: rgb(2, 147, 250);
   }
 }
+.fixedBtn {
+  position: fixed;
+  top: 40%;
+  right: 0;
+  padding: 1rem;
+  background: rgb(2, 147, 250);
+  color: #fff;
+  border-radius: 1rem 0 0 1rem;
+  writing-mode: vertical-rl;
+  transition: all 0.5s ease;
+  z-index: 3000;
+}
+/*Call Back Popup */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3500;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 40px 20px 30px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 3px ridge rgb(2, 147, 250);
+  line-height: 200%;
+}
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  transition: all 200ms;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(2, 147, 250);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #eee;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.popup .close:hover {
+  color: #000;
+}
+
+.popup .popup_form {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .popup {
+      width: 80%;
+  }
+}
+
+.cStyle {
+  padding: 5rem 2rem;
+  line-height: 3rem;
+  font-size: 1.6rem
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1135,7 +1222,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #d9232d;
+  color: rgb(2, 147, 250);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
