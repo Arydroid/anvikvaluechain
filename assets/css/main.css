@@ -79,7 +79,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: rgb(2, 147, 250);;
+  color: rgb(2, 147, 250);
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -176,7 +176,7 @@ section {
 }
 
 .breadcrumbs nav ol a {
-  color: var(--color-primary);
+  color: rgb(2, 147, 250);
   transition: 0.3s;
 }
 
@@ -347,7 +347,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 68px;
+  padding: 10px 0 10px 84px;
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   font-weight: 500;
