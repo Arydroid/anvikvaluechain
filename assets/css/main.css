@@ -349,7 +349,7 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 84px;
   font-family: "Poppins", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 500;
   color: #556270;
   white-space: nowrap;
@@ -407,7 +407,7 @@ section {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: none;
   font-weight: 400;
 }
