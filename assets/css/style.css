@@ -1619,7 +1619,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #d9232d;
+  background: rgb(2, 147, 250);
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1628,7 +1628,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #df3740;
+  background: rgb(2, 147, 250);
 }
 
 .blog .entry .entry-content h3 {
@@ -1683,7 +1683,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #d9232d;
+  color: rgb(2, 147, 250);
 }
 
 .blog .entry .entry-footer .cats {
@@ -1792,7 +1792,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #d9232d;
+  color: rgb(2, 147, 250);
 }
 
 .blog .blog-comments .comment h5 .reply {
