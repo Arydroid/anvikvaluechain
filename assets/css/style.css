@@ -100,11 +100,13 @@ h6 {
 /* #header .logo img {
   max-height: 40px;
 } */
-.hola{
-  max-width: 16rem;
+.hola {
+  max-width: 6rem;
   position: relative;
   left: -3rem;
+  padding: 5px 0;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
